@@ -37,8 +37,8 @@ Print the message "MEDIA"(average in Portuguese) and the student's average accor
 the following example, with 5 digits after the decimal point and with a blank space before 
 and after the equal signal"""
 
-A = float(5.0)
-B = float(7.1)
+A = float(input())
+B = float(input())
 
 MEDIA = (A*3.5 + B*7.5)/(3.5 + 7.5)
 
@@ -60,10 +60,58 @@ Print the message "MEDIA"(average in Portuguese) and the student's average accor
 the following example, with a blank space before and after the equal signal.
 """
 
-A = float(5.0)
-B = float(10.0)
-C = float(10.0)
+A = float(input())
+B = float(input())
+C = float(input())
 
 MEDIA = (A*2 + B*3 + C*5)/(2 + 3 + 5)
 
 print('MEDIA = ', MEDIA)
+print(f'MEDIA = {MEDIA:.1f}')
+
+
+
+"""
+Welcome to beecrowd!
+
+Your first program in any programming language is usually "Hello World!". In this first problem 
+all you have to do is print this message on the screen.
+
+Input
+This problem has no input.
+
+Output
+You must print the message Hello World! and then the endline as shown below"""
+
+r = float(input())
+a = 3.14159 * (r**2)
+
+print(f'A={a:.4f}')
+
+
+
+n = int(input())
+h = float(input())
+s = float(input())
+
+r = h*s
+
+print(f'NUMBER = {n}')
+print(f'SALARY = U$ {r:.2f}')
+
+"""
+Make a program that reads a seller's name, his/her fixed salary and 
+the sale's total made by himself/herself in the month (in money). 
+Considering that this seller receives 15% over all products sold, 
+write the final salary (total) of this seller at the end of the month, 
+with two decimal places."""
+
+name = str(input())
+s_fixo = float(input())
+vendas = float(input())
+
+perc = vendas * 0.15
+total = s_fixo + perc
+
+print(name)
+print(f'TOTAL = U$ {total:.2f}')
