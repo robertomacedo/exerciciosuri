@@ -28,4 +28,3 @@ v2 = float(p2[2])
 
 vt = n1*v1 + n2*v2
 print(f'VALOR A PAGAR: R$ {vt:.2f}')
-
