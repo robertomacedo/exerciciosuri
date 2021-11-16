@@ -10,18 +10,22 @@ The symbol '(' represents greather than. For example:
 [0,25] indicates numbers between 0 and 25.0000, including both.
 (25,50] indicates numbers greather than 25 (25.00001) up to 50.0000000.
 """
-# valor = float(input())
+valor = float(input())
 
-# if 0<=valor<=25:
-#     print('Intervalo [0, 25]')
-# elif 25<valor<=50:
-#     print('Intervalo (25,50]')
-# elif 50<valor<=75:
-#     print('Intervalo (50,75]')
-# elif 75<valor<=100:
-#     print('Intevalo (75,100]')
-# else:
-#     print('Fora de intervalo')
+if 0<=valor<=25:
+    print('Intervalo [0, 25]')
+elif 25<valor<=50:
+    print('Intervalo (25,50]')
+elif 50<valor<=75:
+    print('Intervalo (50,75]')
+elif 75<valor<=100:
+    print('Intevalo (75,100]')
+else:
+    print('Fora de intervalo')
+
+"""
+formla de bhaskara
+"""
 
 r = input().split()
 

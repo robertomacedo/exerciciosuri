@@ -31,8 +31,3 @@ if (verificar):
     print('Valores aceitos')
 else:
     print('Valores não aceitos')
-
-
-
-
-
