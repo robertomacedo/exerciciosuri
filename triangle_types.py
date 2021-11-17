@@ -7,27 +7,14 @@ if the three sides are the same size, write the message: TRIANGULO EQUILATERO
 if only two sides are the same and the third one is different, write the message: TRIANGULO ISOSCELES
 """
 
-dado = input().split()
-
-a = float(dado[0])
-b = float(dado[1])
-c = float(dado[2])
+a, b, c = sorted(list((map(float, input().split()))), reverse=True)
 
 
-if a == b + c:
-    print('Triangulo retangulo')
+if a >= (b + c): print('NAO FORMA TRIANGULO')
+elif a**2 == (b**2+c**2): print('TRIANGULO RETANGULO')
+elif a**2 > (b**2+c**2): print('TRIANGULO OBTUSANGULO')
+elif a**2 < (b**2+c**2): print('TRIANGULO ACUTANGULO')
 
-if a**2 > b**2 + c**2:
-    print('Triangulo obtusangulo')
+if a==b==c: print('TRIANGULO EQUILATERO')
 
-if a == b == c == a:
-    print('Triagulo isosceles')
-
-if a**2 < b**2 + c**2:
-    print('Triangulo acutangulo')
-
-if a <= b+c: 
-    print('Não forma triangulo')
-
-else:
-    pass
+elif a==b or b==c: print('TRIANGULO ISOSCELES')
