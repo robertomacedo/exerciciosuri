@@ -1,5 +1,8 @@
-# exerciciosuri
-Resolvendo os exercícios no site URI
+# Treinando com exercícios do site URI
 
-A meta é treinar programação usando python resolvendo o máximo de problemas (desafios), para tanto
-farei uso, inicialmente, do site bastante conhecido, o URI online.
+## A meta é resolver o máximo de desafios, ganhar experiência a cada degrau focando na base e praticando muito.
+
+
+![Site URIonline](https://www.beecrowd.com.br/judge/en/problems/index/1)
+
+
