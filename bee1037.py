@@ -24,7 +24,7 @@ else:
     print('Fora de intervalo')
 
 """
-formla de bhaskara
+formula de bhaskara
 """
 
 r = input().split()

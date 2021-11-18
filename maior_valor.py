@@ -12,15 +12,15 @@ Print the greatest of these three values followed
 by a space and the message “eh o maior”
 """
 
-# maior_valor = input().split()
+maior_valor = input().split()
 
-# a = int(maior_valor[0]) 
-# b = int(maior_valor[1])
-# c = int(maior_valor[2])
+a = int(maior_valor[0]) 
+b = int(maior_valor[1])
+c = int(maior_valor[2])
 
-# m = max(a, b, c)
+m = max(a, b, c)
 
-# print(f'{m} eh o maior')
+print(f'{m} eh o maior')
 
 
 """
@@ -32,12 +32,12 @@ The input file contains two values: one integer value X representing
 the total distance (in Km) and the second one is a floating point number 
 Y  representing the spent fuel total, with a digit after the decimal point.
 """
-# x = int(input())
-# y = float(input())
+x = int(input())
+y = float(input())
 
-# result = x/y
+result = x/y
 
-# print(f'{result:.3f} km/l')
+print(f'{result:.3f} km/l')
 
 """
 Read the four values corresponding to the x and y axes of 
