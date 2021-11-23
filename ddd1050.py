@@ -13,7 +13,10 @@ dict = {61: 'Brasilia',
         21: 'Rio de Janeiro',
         19: 'Campinas',
         }
+while True:
+    n = int(input())
 
-n = int(input())
-
-print(dict[n])
+    if n:
+        print(dict[n])
+    else:
+        print('ddd não encontrado')
